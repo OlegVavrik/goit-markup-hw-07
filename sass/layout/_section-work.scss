@@ -1,0 +1,38 @@
+.section-work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-work__list {
+  display: flex;
+  justify-content: center;
+}
+.section-work__item {
+  &:not(:last-child) {
+    display: flex;
+    margin-right: 30px;
+  }
+}
+.section-work__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.section-work__write {
+  position: relative;
+  display: flex;
+}
+.section-work__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(47, 48, 58, 0.8);
+  height: 70px;
+  width: 370px;
+  position: absolute;
+  color: var(--color-white);
+  bottom: 0;
+  width: 370px;
+}

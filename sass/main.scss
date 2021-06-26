@@ -1,1 +1,22 @@
 @import "./utils/variables";
+@import "./utils/common-styles";
+@import "./utils/container";
+//layout
+@import "./layout/header";
+@import "./layout/section-effect";
+@import "./layout/section-description";
+@import "./layout/section-work";
+@import "./layout/section-team";
+@import "./layout/regular-clients";
+@import "./layout/footer";
+@import "./layout/portfolio-section";
+@import "./layout/portfolio-cards";
+// components
+@import "./components/logo";
+@import "./components/nav";
+@import "./components/footer-form";
+@import "./components/portfolio-filter";
+@import "./components/modal";
+@import "./components/modal-checkbox";
+@import "./components/icon-list";
+@import "./components/address";
