@@ -1,15 +1,16 @@
 @import "./utils/variables";
 @import "./utils/common-styles";
 @import "./utils/container";
+@import "./utils/title";
 //layout
 @import "./layout/header";
-@import "./layout/section-effect";
-@import "./layout/section-description";
-@import "./layout/section-work";
-@import "./layout/section-team";
-@import "./layout/regular-clients";
+@import "./layout/hero";
+@import "./layout/description";
+@import "./layout/work";
+@import "./layout/team";
+@import "./layout/clients";
 @import "./layout/footer";
-@import "./layout/portfolio-section";
+@import "./layout/portfolio";
 @import "./layout/portfolio-cards";
 // components
 @import "./components/logo";

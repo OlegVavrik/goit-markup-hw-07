@@ -1,4 +1,4 @@
-.section-effect {
+.hero {
   text-align: center;
   background: var(--background-section);
   padding-top: 200px;
@@ -18,7 +18,7 @@
     url(../images/backgroundHero.jpg);
 }
 
-.section-effect__title {
+.hero__title {
   color: var(--color-white);
   font-style: normal;
   font-weight: 900;
@@ -27,7 +27,7 @@
   margin-bottom: 30px;
 }
 
-.section-effect__button {
+.hero__button {
   display: inline-block;
   font-family: inherit;
   background-color: var(--background-color-button);

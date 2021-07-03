@@ -1,14 +1,16 @@
-.icon-list {
+/* Иконки- team */
+
+.social__list {
   display: flex;
   align-items: center;
 }
 
-.icon-list__team {
+.social__item {
   &:not(:last-child) {
     margin-right: 10px;
   }
 }
-.icon-list__link {
+.social__link {
   fill: var(--color-icons);
   display: flex;
   justify-content: center;
@@ -20,12 +22,12 @@
     background 250ms var(--cubic-bezier);
 }
 
-.icon-list__svg {
+.social__icon {
   width: 20px;
   height: 20px;
 }
 
-.icon-list__link {
+.social__link {
   &:hover,
   &:focus {
     fill: var(--color-white);
@@ -36,7 +38,7 @@
 
 /* Иконки- footer */
 
-.footer-icon {
+.footer-icon__box {
   margin-left: 70px;
 }
 

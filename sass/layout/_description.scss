@@ -1,10 +1,10 @@
-.section-description {
+.description {
   padding-top: 94px;
 }
-.section-description__list {
+.description__list {
   display: flex;
 }
-.section-description__icon {
+.description__icon {
   display: flex;
   width: 270px;
   height: 120px;
@@ -14,11 +14,11 @@
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.section-description__item {
+.description__item {
   margin-right: 30px;
 }
 
-.section-description__title {
+.description__title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.142;
@@ -27,7 +27,7 @@
   margin-bottom: 10px;
 }
 
-.section-description__text {
+.description__text {
   align-items: center;
   font-weight: normal;
   font-size: 14px;

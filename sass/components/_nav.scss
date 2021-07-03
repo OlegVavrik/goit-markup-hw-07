@@ -1,7 +1,7 @@
-.navigation {
+.nav {
   display: flex;
 
-  .nav-list__studio.current {
+  .nav-list__link--studio.current {
     color: var(--blue-color);
   }
 }
@@ -11,17 +11,17 @@
   align-items: center;
   margin-left: 93px;
 
-  > .nav-list__link {
+  > .nav-list__item {
     &:not(:last-child) {
       margin-right: 50px;
     }
   }
 }
-.nav-list__link {
+.nav-list__item {
   display: block;
 }
 
-.nav-list__studio {
+.nav-list__link--studio {
   position: relative;
   text-decoration: none;
   color: var(--black-color);
@@ -48,14 +48,14 @@
   }
 }
 
-.contact-list > .contact-item {
+.contact__list > .contact__item {
   &:not(:last-child) {
     margin-right: 50px;
   }
 }
 /* Портфолио */
 
-.nav-list__portfolio.current {
+.nav-list__link--portfolio.current {
   &::after {
     margin-top: 32px;
     display: block;
@@ -67,11 +67,11 @@
     border-radius: 2px;
   }
 }
-.navigation .nav-list__portfolio.current {
+.nav .nav-list__link--portfolio.current {
   color: var(--blue-color);
 }
 
-.nav-list__portfolio {
+.nav-list__link--portfolio {
   color: var(--black-color);
   font-weight: 500;
   font-size: 14px;
@@ -87,13 +87,13 @@
 
 /* Контакты */
 
-.contact-list {
+.contact__list {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
 
-.nav-list__contact {
+.nav-list__link--contact {
   color: var(--black-color);
   font-weight: 500;
   font-size: 14px;
@@ -102,35 +102,12 @@
 
 /* почта */
 
-.contact-item__icon {
+.contact__icon {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.contact-item__mail {
-  display: flex;
-  align-items: center;
-  color: var(--color-grey);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.142;
-  letter-spacing: 0.02em;
-  transition: color 250ms var(--cubic-bezier);
-
-  &:hover,
-  &:focus {
-    color: var(--blue-color);
-  }
-}
-
-/* телефон */
-
-.contact-item__icon {
-  fill: currentColor;
-  margin-right: 10px;
-}
-
-.contact-item__tel {
+.contact__link {
   display: flex;
   align-items: center;
   color: var(--color-grey);

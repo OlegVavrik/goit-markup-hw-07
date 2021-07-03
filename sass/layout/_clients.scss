@@ -1,28 +1,20 @@
-.regular-clients--text {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.166;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-}
-.regular-clients {
+.clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.regular-clients__list {
+.clients__list {
   display: flex;
   justify-content: center;
   margin: 0 auto;
   justify-content: center;
 }
 
-.regular-clients__icon {
+.clients__item {
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
-.regular-clients__link {
+.clients__link {
   border: 1px solid rgba(175, 177, 184, 1);
   fill: var(--color-icons);
   display: flex;
@@ -39,7 +31,7 @@
     border-color: var(--blue-color);
   }
 }
-.regular-clients__svg {
+.clients__icon {
   display: flex;
   align-items: center;
   justify-content: center;
